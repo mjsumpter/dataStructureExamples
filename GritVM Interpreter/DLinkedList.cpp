@@ -1,5 +1,5 @@
 /***********************************************************************
- * DLinkedList.cpp (PP3 EC)
+ * DLinkedList.cpp
  * Author: Matthew Sumpter
  * Description: Implementation file for a doubly-linked list
  * *********************************************************************/

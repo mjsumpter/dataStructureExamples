@@ -1,7 +1,7 @@
 /***********************************************************************
  * NotationConverter.cpp
  * Author: Matthew Sumpter
- * Description: (PP2) Implementation file for the NotationConverter class.
+ * Description: Implementation file for the NotationConverter class.
  *  
  * *********************************************************************/
 

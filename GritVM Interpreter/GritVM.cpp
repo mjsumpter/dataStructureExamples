@@ -1,5 +1,5 @@
 /***********************************************************************
- * GritVM.cpp (PP3)
+ * GritVM.cpp
  * Author: Matthew Sumpter
  * Description: Implementation file for GritVM class that interprets
  *              the GritVM programming language. It can read in a file of code

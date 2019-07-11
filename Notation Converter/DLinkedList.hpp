@@ -1,7 +1,7 @@
 /***********************************************************************
  * DLinkedList.hpp
  * Author: Matthew Sumpter
- * Description: (PP2) Header file for a doubly-linked list class that uses
+ * Description: Header file for a doubly-linked list class that uses
  *              Nodes containing strings. See implementation file for
  *              function descriptions
  * *********************************************************************/

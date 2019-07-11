@@ -1,5 +1,5 @@
 /***********************************************************************
- * GritVM.hpp (PP3)
+ * GritVM.hpp
  * Author: Matthew Sumpter
  * Description: Header file for GritVM class that interprets
  *              the GritVM programming language. It can read in a file of code

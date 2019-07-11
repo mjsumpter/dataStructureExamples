@@ -1,7 +1,7 @@
 /***********************************************************************
  * NotationConverter.hpp
  * Author: Matthew Sumpter
- * Description: (PP2) Header file for the NotationConverter class.
+ * Description: Header file for the NotationConverter class.
  *              The class provides the functionality for converting between
  *              prefix, postfix, and infix mathematical notations.
  * 
@@ -17,11 +17,9 @@
 #ifndef NOTATIONCONVERTER_H
 #define NOTATIONCONVERTER_H
 
-#include "NotationConverterInterface.hpp"
 #include <string>
 
-class NotationConverter : public NotationConverterInterface
-{
+class NotationConverter {
     protected:
         // helper functions
         bool isoperator(char& testChar) const;

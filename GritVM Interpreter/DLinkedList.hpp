@@ -1,5 +1,5 @@
 /***********************************************************************
- * DLinkedList.hpp (PP3 EC)
+ * DLinkedList.hpp
  * Author: Matthew Sumpter
  * Description: Header file for a doubly-linked list class that uses
  *              Nodes containing strings. See implementation file for

@@ -1,12 +1,20 @@
 /* CalcList.hpp
  * Author: Matthew Sumpter
- * Description: (PP1) CalcList stores a series of calculations (CalcEntry objects) as a doubly linked-list.
+ * Description: CalcList stores a series of calculations (CalcEntry objects) as a doubly linked-list.
  * */
 
 #ifndef CALCLIST_HPP
 #define CALCLIST_HPP
 
-#include "CalcListInterface.hpp"
+
+// Enum that contains all the arithmetic functions needed for newOperation
+typedef enum
+{
+    ADDITION,
+    SUBTRACTION,
+    MULTIPLICATION,
+    DIVISION
+} FUNCTIONS;
 
 class CalcEntry {
     private:
@@ -20,7 +28,7 @@ class CalcEntry {
         friend class CalcList;
 };
 
-class CalcList : public CalcListInterface {
+class CalcList {
     private:
         double currentTotal;
         int numOperations;    // tracks number of CalcEntry objects in list
@@ -39,10 +47,10 @@ class CalcList : public CalcListInterface {
         CalcList();
         ~CalcList();
 
-        virtual double total() const { return currentTotal; };
-        virtual void newOperation(const FUNCTIONS func, const double operand);
-        virtual void removeLastOperation();
-        virtual std::string toString(unsigned short precision) const;        
+        double total() const { return currentTotal; };
+        void newOperation(const FUNCTIONS func, const double operand);
+        void removeLastOperation();
+        std::string toString(unsigned short precision) const;        
 };
 
 #endif //CALCLIST_HPP

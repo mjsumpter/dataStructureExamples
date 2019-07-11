@@ -1,7 +1,7 @@
 /***********************************************************************
  * DLinkedList.cpp
  * Author: Matthew Sumpter
- * Description: (PP2) Implementation file for a doubly-linked list
+ * Description: Implementation file for a doubly-linked list
  * *********************************************************************/
 
 #include "DLinkedList.hpp"

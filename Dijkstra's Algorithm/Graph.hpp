@@ -1,5 +1,5 @@
 /***************************************************************************************************************************************
- * Graph.hpp (PP5)
+ * Graph.hpp
  * Author: Matthew Sumpter
  * Description: Header file for Graph class. The Graph class provides the framework for
  *              storing a weighted, undirected graph of vertices labelled with a string.

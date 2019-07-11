@@ -1,5 +1,5 @@
 /***********************************************************************************
- * CustomVector.hpp (PP3 EC)
+ * CustomVector.hpp
  * Author: Matthew Sumpter
  * Description: Template file for Vector ADT class.
  * 

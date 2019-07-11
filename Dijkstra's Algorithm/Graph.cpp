@@ -1,5 +1,5 @@
 /***********************************************************************************************
- * Graph.cpp (PP5)
+ * Graph.cpp
  * Author: Matthew Sumpter
  * Description: Implementation file for Graph class that represents a weighted, undirected graph
  *              as an adjacency list, with string labels for the vertices.

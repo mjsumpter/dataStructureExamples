@@ -1,7 +1,7 @@
 /***********************************************************************
  * DLinkedDeque.cpp
  * Author: Matthew Sumpter
- * Description: (PP2) Implementation file for a Deque, implemented using a doubly-linked list.
+ * Description: Implementation file for a Deque, implemented using a doubly-linked list.
  * *********************************************************************/
 
 #include "DLinkedDeque.hpp"

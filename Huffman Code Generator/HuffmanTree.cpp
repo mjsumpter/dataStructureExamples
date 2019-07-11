@@ -1,5 +1,5 @@
 /***********************************************************************************************
- * HuffmanTree.cpp (PP4)
+ * HuffmanTree.cpp
  * Author: Matthew Sumpter
  * Description: Implementation file for HuffmanTree class that can compress
  *              a text string to Huffman Code, serialize the associated Huffman Binary Tree,

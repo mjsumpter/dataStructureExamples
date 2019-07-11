@@ -1,6 +1,6 @@
 /* CalcList.cpp
  * Author: Matthew Sumpter
- * Description: (PP1) The implementation file for the CalcList class. See CalcList.hpp for more details
+ * Description: The implementation file for the CalcList class. See CalcList.hpp for more details
  * */
 
 #include "CalcList.hpp"

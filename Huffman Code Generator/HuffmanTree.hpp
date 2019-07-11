@@ -1,5 +1,5 @@
 /***************************************************************************************************************************************
- * HuffmanTree.hpp (PP4)
+ * HuffmanTree.hpp
  * Author: Matthew Sumpter
  * Description: Header file for HuffmanTree class. The HuffmanTree class
  *              provides functionality for compressing and decompressing strings
