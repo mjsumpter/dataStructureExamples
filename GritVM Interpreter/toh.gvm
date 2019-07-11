@@ -1,0 +1,56 @@
+# TOH.GVM (PP3 EC)
+# Author: Matthew Sumpter
+# Description: Calculates the minimum number of moves for a Towers of Hanoi solution
+#
+#              Result is of form [N, Result], where N is the # of disks passed into
+#              the program, and Result is the minimum number of steps
+
+# Check the memory has at least one space, clear the accumulator
+CHECKMEM 1
+CLEAR
+
+# Check base cases for N
+AT 0
+JUMPZERO 25  # If N = 0
+SUBCONST 1
+JUMPZERO 20  # If N = 1
+
+# Put number of disks into accumulator, and then into datamem[1], set datamem[2] = 1
+# [0] = N, [1] = decremental counter, [2] = Result
+AT 0
+INSERT 1
+CLEAR
+ADDCONST 1
+INSERT 2
+
+# datamem[2] *= 2, clear accumulator
+AT 2         # Instruction 12
+MULCONST 2   
+SET 2
+CLEAR
+
+# Use datamem[1] as decremental counter: datamem[1]--
+AT 1
+SUBCONST 1
+SET 1
+
+# If datamem[1] == 0, end, otherwise jump back to instruction 12
+JUMPNZERO -7
+
+# Subtract 1, to attain 2^n -1
+AT 2
+SUBCONST 1
+SET 1       # [1] = Result
+ERASE 2     
+CLEAR
+
+HALT
+
+# if N = 1, Result = 1, and HALT
+ADDCONST 1
+INSERT 1
+HALT
+
+#if N = 0, Result = 0, and HALT
+INSERT 1
+HALT
